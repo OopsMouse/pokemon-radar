@@ -115,8 +115,6 @@ var getNeighborsNotCaught = function (location, cb) {
 
 var hookUrl = process.env.PGO_SLACK_URL;
 
-hookUrl  = 'https://hooks.slack.com/services/';
-
 var postPokemonToSlack = function(pokemon, cb) {
   var u = hookUrl.split('@');
 
